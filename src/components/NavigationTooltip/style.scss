@@ -1,0 +1,91 @@
+.navigation-tooltip {
+  z-index: -1;
+  display: none;
+  position: absolute;
+  top: -1px;
+  left: -17px;
+  right: 0;
+  width: 164px;
+  font-size: 14px;
+  color: #000;
+  padding: 40px 0 13px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  text-align-last: left;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.02);
+  &_right {
+    left: auto;
+    top: -3px;
+    right: -10px;
+    width: 168px;
+    padding: 10px 0;
+  }
+  &_more {
+    left: auto;
+    top: -8px;
+    right: -12px;
+    width: 168px;
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  &_more &__item {
+    padding: 3px 11px;
+  }
+  &_setting {
+    width: 208px;
+    left: auto;
+    top: -10px;
+    right: -10px;
+    padding: 10px 0;
+  }
+  &_setting &__item {
+    display: flex;
+    padding: 3px 11px;
+  }
+  &_user-auth {
+    z-index: 2;
+    width: 100%;
+    padding: 34px 0 8px;
+    top: -9px;
+    left: auto;
+    font-size: 13px;
+    line-height: 17px;
+  }
+  &_user-auth &__item {
+    padding: 5px 15px;
+  }
+  &_product {
+    top: 2px;
+    left: -15px;
+    width: 150px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 35px 0 4px;
+  }
+  &_product &__item {
+    padding: 3px 18px 5px 16px;
+  }
+  &__item {
+    display: flex;
+    justify-content: start;
+    font-weight: 400;
+    padding: 3px 16px;
+    color: #000;
+    text-decoration: none;
+    &.nuxt-link-exact-active {
+      color: #818181;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: #fffae5;
+    }
+  }
+  &__header-text {
+    font-size: 13px;
+    line-height: 15px;
+    color: #818181;
+    padding: 0 30px 8px 14px;
+  }
+}

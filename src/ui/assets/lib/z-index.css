@@ -1,0 +1,7 @@
+/* z-indexes, начальные значения стандартизированы для основных элементов */
+:root {
+  --z-below-blackout: 100;
+  --z-blackout: 200;
+  --z-modal: 400;
+  --z-above-modal: 500;
+}

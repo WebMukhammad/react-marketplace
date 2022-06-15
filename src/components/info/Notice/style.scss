@@ -1,0 +1,35 @@
+.notice {
+  display: flex;
+  padding: 21px 28px 24px;
+  color: #000;
+  background-color: #fff5de;
+  border: 2px solid #ffbe2a;
+  border-radius: 5px;
+  &_info {
+    border-color: transparent;
+    .notice__bg {
+      background-image: svg-load('./icon/warning.svg', fill=#E9D4A6);
+    }
+  }
+  &_attention {
+    background-color: #fcf7f6;
+    border-color: #e41520;
+    .notice__bg {
+      background-image: svg-load('./icon/warning.svg', fill=#E30613);
+    }
+  }
+  &__content {
+    max-width: 680px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  &__bg {
+    flex-shrink: 0;
+    margin: 7px 0 0 auto;
+    width: 81px;
+    height: 81px;
+    background-image: url('/assets/img/icon/warning.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

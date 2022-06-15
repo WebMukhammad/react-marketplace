@@ -1,0 +1,19 @@
+.comission {
+  &__crop {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #818181;
+  }
+  &__row {
+    display: flex;
+  }
+  &__percent {
+    min-width: 28px;
+    margin-right: 5px;
+  }
+  &__text {
+    font-size: 11px;
+    line-height: 14px;
+    color: #818181;
+  }
+}

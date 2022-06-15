@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-446.000000, -934.000000)" fill="#000000">
+            <g id="MAXICONS1_refresh" transform="translate(446.000000, 934.000000)">
+                <g id="Слой_1">
+                    <g id="Group">
+                        <path d="M1,8 C1.6,8 2,7.6 2,7 L2,6 C2,5.4 2.4,5 3,5 L12.6,5 L11.3,6.3 C10.9,6.7 10.9,7.3 11.3,7.7 C11.5,7.9 11.7,8 12,8 C12.3,8 12.5,7.9 12.7,7.7 L15.7,4.7 C16.1,4.3 16.1,3.7 15.7,3.3 L12.7,0.3 C12.3,-0.1 11.7,-0.1 11.3,0.3 C10.9,0.7 10.9,1.3 11.3,1.7 L12.6,3 L3,3 C1.3,3 0,4.3 0,6 L0,7 C0,7.6 0.4,8 1,8 L1,8 Z" id="Shape"></path>
+                        <path d="M15,8 C14.4,8 14,8.4 14,9 L14,10 C14,10.6 13.6,11 13,11 L3.4,11 L4.7,9.7 C5.1,9.3 5.1,8.7 4.7,8.3 C4.3,7.9 3.7,7.9 3.3,8.3 L0.3,11.3 C-0.1,11.7 -0.1,12.3 0.3,12.7 L3.3,15.7 C3.5,15.9 3.7,16 4,16 C4.3,16 4.5,15.9 4.7,15.7 C5.1,15.3 5.1,14.7 4.7,14.3 L3.4,13 L13,13 C14.7,13 16,11.7 16,10 L16,9 C16,8.5 15.6,8 15,8 L15,8 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

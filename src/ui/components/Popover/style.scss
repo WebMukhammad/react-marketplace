@@ -1,0 +1,28 @@
+.popover {
+  display: inline-block;
+  &__handler {
+    display: inline-block;
+  }
+  &__modal {
+    margin: auto;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 400;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.fade-in-enter-active {
+  animation: 0.2s fadeIn;
+}
+
+.fade-out-leave-to {
+  animation: 0.2s fadeOut;
+}

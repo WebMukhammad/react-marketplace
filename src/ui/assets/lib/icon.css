@@ -1,0 +1,88 @@
+/* Для всех новых иконок нужно добавлять в этом файле их название, как показано ниже в @each $icon, также для демо нужно добавлять
+  название в файле icons.vue, в компоненте Text, в свойсто icons, в data'e
+*/
+
+/* @each $icon in add, add-grey, book, card, close, search, building, dashboard, new, package, wallet, arrow-right, arrow-bottom, more,
+  notification, setting, bin, archive, back, tick, drag, note, loading-oval, bonus-icon, question, map, telegram, whatsapp, social-telegram,
+  social-whatsapp, cart, cart-white, print, warning, comment, bug, reset, eye, eye-closed, arrow, download, top-arrow, right-arrow,
+  bottom-arrow, left-arrow, load, calendar, drag-handler, qr-code, menu
+{
+  .icon-$(icon) {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('~@img/icon/$(icon).svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    &_white {
+      background-image: svg-load('./icon/$(icon).svg', fill=#fff);
+    }
+    &_red {
+      background-image: svg-load('./icon/$(icon).svg', fill=#E30613);
+    }
+    &_black {
+      background-image: svg-load('./icon/$(icon).svg', fill=#000);
+    }
+    &_grey {
+      background-image: svg-load('./icon/$(icon).svg', fill=#818181);
+    }
+    &_green {
+      background-image: svg-load('./icon/$(icon).svg', fill=#11C86F);
+    }
+    &_brown {
+      background-image: svg-load('./icon/$(icon).svg', fill=#5E5118);
+    }
+    &_purple {
+      background-image: svg-load('./icon/$(icon).svg', fill=#781688);
+    }
+    &_disabled {
+      background-image: svg-load('./icon/$(icon).svg', fill=rgba(0, 0, 0, 0.26));
+    }
+    &_hover {
+      &:hover {
+        transition-duration: 0.2s;
+        background-image: svg-load('./icon/$(icon).svg', fill=#E30613);
+      }
+    }
+  }
+} */
+
+.icon-more {
+  width: 26px;
+}
+
+.icon-notification {
+  width: 24px;
+  height: 27px;
+}
+
+.icon-telegram {
+  width: 27px;
+  height: 24px;
+}
+
+.icon-bug {
+  width: 24px;
+  height: 26px;
+}
+
+.icon-book {
+  background-size: 14px;
+}
+
+.icon-tick {
+  background-size: 13px auto;
+}
+
+.icon-bonus-icon {
+  width: 17px;
+}
+
+.icon-arrow-right {
+  background-size: 14px 12px;
+}
+
+.icon-loading-oval_black {
+  background-image: url('../img/icon/loading-oval.svg');
+}

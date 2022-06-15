@@ -1,0 +1,23 @@
+.note {
+  border-radius: 5px;
+  &_reddish {
+    background-color: #fcf7f6;
+    border: 1px solid #efe5e3;
+  }
+  &_yellow {
+    background-color: #fffae5;
+    border: 1px solid #efe9cc;
+  }
+  &_s-size {
+    padding: 8px 13px;
+  }
+  &_m-size {
+    padding: 22px 23px 24px;
+  }
+
+  @media (max-width: 800px) {
+    &_m-size {
+      padding: 15px 17px 17px;
+    }
+  }
+}

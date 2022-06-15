@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.6351953%" id="linearGradient-1">
+            <stop stop-color="#41BCE7" offset="0%"></stop>
+            <stop stop-color="#22A6DC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="детальная-универсальная" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Открытое-окно" transform="translate(-28.000000, -275.000000)" fill-rule="nonzero">
+            <g id="Group-6-Copy-3" transform="translate(28.000000, 275.000000)">
+                <g id="Group-5">
+                    <g id="telegram">
+                        <circle fill="url(#linearGradient-1)" cx="13" cy="13" r="13"></circle>
+                        <g id="Group" transform="translate(4.621094, 7.007812)">
+                            <path d="M14.70625,0.472265625 L12.3855469,12.1773437 C12.3855469,12.1773437 12.0605469,12.9898437 11.1667969,12.5988281 L5.809375,8.490625 L3.859375,7.55117187 L0.57890625,6.44921875 C0.57890625,6.44921875 0.076171875,6.27148438 0.025390625,5.88046875 C-0.025390625,5.48945313 0.594140625,5.28125 0.594140625,5.28125 L13.6347656,0.167578125 C13.6347656,0.1625 14.70625,-0.309765625 14.70625,0.472265625 Z" id="Path" fill="#FFFFFF"></path>
+                            <path d="M5.39296875,12.0453125 C5.39296875,12.0453125 5.23554687,12.0300781 5.04257812,11.415625 C4.84960937,10.8011719 3.859375,7.55117188 3.859375,7.55117188 L11.7355469,2.54921875 C11.7355469,2.54921875 12.1925781,2.275 12.1722656,2.54921875 C12.1722656,2.54921875 12.2535156,2.6 12.0097656,2.8234375 C11.7660156,3.05195313 5.82460937,8.39414063 5.82460937,8.39414063" id="Path" fill="#D2E4F0"></path>
+                            <path d="M7.8609375,10.0648437 L5.74335938,11.9996094 C5.74335938,11.9996094 5.57578125,12.1265625 5.39804688,12.0453125 L5.80429688,8.45507812" id="Path" fill="#B5CFE4"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

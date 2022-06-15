@@ -1,0 +1,45 @@
+.layout-promo {
+  color: #fff;
+  background-color: #181818;
+  &__header {
+    max-width: 1030px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__content {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background-color: #242424;
+    position: relative;
+    &-wrapper {
+      position: relative;
+      z-index: 1;
+    }
+    &:before {
+      content: "";
+      height: 769px;
+      background-color: #171717;
+      clip-path: ellipse(90% 53.5% at 50% 41%);
+      position: absolute;
+      z-index: 1;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      display: block;
+      @media (max-width: 1550px) {
+        clip-path: ellipse(70% 57.5% at 50% 41%);
+      }
+      @media (max-width: 1300px) {
+        clip-path: ellipse(85% 57.5% at 50% 41%);
+      }
+      @media (max-width: 960px) {
+        clip-path: ellipse(106% 57.5% at 50% 39%);
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    &__content {
+      padding-top: 30px;
+    }
+  }
+}

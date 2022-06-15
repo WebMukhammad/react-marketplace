@@ -1,0 +1,52 @@
+.status {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 15px;
+  padding: 0 8px;
+  text-transform: lowercase;
+  &_hidden {
+    background-color: #b5d7ff;
+  }
+  &_unavailable {
+    background-color: #d02c67;
+    color: #fff;
+  }
+  &_checking {
+    background-color: #ff9330;
+  }
+  &_available,
+  &_new {
+    background-color: #6fea99;
+  }
+  &_draft {
+    background-color: #242424;
+    color: #fff;
+  }
+  &_archived,
+  &_confirmed {
+    background-color: #feda34;
+  }
+  &_wrong {
+    background-color: #e30613;
+    color: #fff;
+  }
+  &_empty {
+    background-color: #888;
+    color: #fff;
+  }
+  &_activated {
+    background-color: #97cc64;
+    color: #fff;
+  }
+  &_size-small {
+    display: block;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  &_size-small &__title {
+    display: none;
+  }
+}

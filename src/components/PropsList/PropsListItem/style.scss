@@ -1,0 +1,38 @@
+.props-list-item {
+  min-height: 31px;
+  padding: 4px 0 8px;
+  line-height: 17px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  &:first-child {
+    border-top: 1px solid #eeeeee;
+  }
+  &__prop {
+    width: 40%;
+    padding-right: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #8c8c8c;
+    flex-shrink: 0;
+  }
+  &__value {
+    position: relative;
+    flex-grow: 1;
+    span {
+      display: none;
+    }
+    &_crop {
+      overflow: hidden;
+      span {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: block;
+        padding-left: 6px;
+        background-color: #fff;
+        cursor: pointer;
+        color: #2b5ead;
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.header-menu {
+  display: flex;
+  align-items: center;
+  &__icon {
+    width: 16px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-size: auto 16px;
+    margin-right: 7px;
+    flex-shrink: 0;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    &_product {
+      background-image: url("/assets/img/icon/product.svg");
+    }
+    &_cash {
+      background-image: url("/assets/img/icon/cash.svg");
+    }
+    &_bill {
+      background-image: url("/assets/img/icon/bill.svg");
+    }
+    &_news {
+      background-image: url("/assets/img/icon/news.svg");
+    }
+    &_cube {
+      background-image: url("/assets/img/icon/cube.svg");
+    }
+    &_equalizer {
+      background-image: url("/assets/img/icon/equalizer.svg");
+    }
+    &-arrow {
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-image: url("/assets/img/icon/arrow.svg");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      margin-left: 5px;
+      flex-shrink: 0;
+    }
+  }
+  &__item {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 0;
+    margin-right: 27px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-link {
+      color: #fff;
+      text-decoration: none;
+    }
+    &-wrap {
+      display: flex;
+      align-items: center;
+      &_active {
+        color: #000;
+        .header-menu__icon_product {
+          background-image: svg-load("./icon/product.svg", fill=#E30613);
+        }
+        .header-menu__icon-arrow {
+          background-image: svg-load("./icon/arrow.svg", fill=#000);
+        }
+        .header-menu__item-link {
+          color: #000;
+        }
+        & .navigation-tooltip {
+          display: block;
+        }
+      }
+    }
+  }
+  @media (max-width: 1250px) {
+    &__item {
+      margin-right: 22px;
+    }
+    &__icon {
+      display: none;
+    }
+  }
+}

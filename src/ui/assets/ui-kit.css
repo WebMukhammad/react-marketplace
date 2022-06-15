@@ -1,0 +1,31 @@
+@import "lib/reset.css";
+@import "lib/spacing.css";
+@import "lib/icon.css";
+@import "lib/fz.css";
+@import "lib/z-index.css";
+
+body,
+textarea,
+button,
+input {
+  font-family: "Ubuntu", "Ubuntu-Ruble", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  min-height: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #f0e8c5;
+}

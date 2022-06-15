@@ -1,0 +1,26 @@
+.props-list {
+  font-size: 13px;
+  line-height: 19px;
+  &_middle &__title {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    margin-bottom: 9px;
+  }
+  &_small &__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 7px;
+  }
+  &__row {
+    min-height: 31px;
+    padding: 4px 0 8px;
+    line-height: 17px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    &:first-child {
+      border-top: 1px solid #eeeeee;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.form-element {
+  &__row {
+    display: block;
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+  }
+  &__field {
+    flex-grow: 1;
+  }
+  &__error-text,
+  &__helper-text {
+    font-size: 11px;
+    line-height: 13px;
+    font-style: italic;
+  }
+  &__error-text {
+    color: #e6110f;
+  }
+  &__helper-text {
+    color: #757575;
+  }
+  &__hints {
+    width: 100%;
+    min-height: 13px;
+    margin-top: 2px;
+  }
+}

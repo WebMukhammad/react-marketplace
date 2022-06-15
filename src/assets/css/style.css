@@ -1,0 +1,11 @@
+@import "./ruble-font.css";
+@import "./ui-kit.css";
+
+body {
+  background-color: #181818;
+  font-family: "Ubuntu", "Ubuntu-Ruble", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+/* Поле ввода */
+.text-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: text;
+  &_focus {
+    border: 1px solid #0e49fb;
+  }
+  &_error {
+    border: 1px solid #f03d3d;
+  }
+  &_error &__input::placeholder {
+    color: #c69898;
+  }
+  &_success {
+    border: 1px solid #11c86f;
+  }
+  &_disabled {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    cursor: not-allowed;
+    background: repeating-linear-gradient(
+      -45deg,
+      #f4f4f4,
+      #f4f4f4 6px,
+      #fff 0,
+      #fff 13px
+    );
+  }
+  &__input {
+    width: 100%;
+    height: 37px;
+    border: none;
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: transparent;
+    color: #000;
+    outline: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    &::placeholder {
+      color: #757575;
+    }
+    &:-webkit-autofill {
+      font-size: 14px;
+      line-height: 16px;
+      -webkit-box-shadow: 0 0 0 50px #fffdf4 inset;
+    }
+    &::-ms-reveal,
+    &::-ms-clear {
+      display: none;
+    }
+    &:focus {
+      border: none;
+    }
+  }
+  &__note-text {
+    font-size: 14px;
+    line-height: 18px;
+    flex-shrink: 0;
+    &_left {
+      margin-right: 4px;
+    }
+    &_right {
+      margin-left: 4px;
+    }
+  }
+  &__icon {
+    cursor: text;
+    flex-shrink: 0;
+    &_left {
+      margin-right: 4px;
+    }
+    &_right {
+      margin-left: 4px;
+    }
+    &_password {
+      order: 1;
+      margin: 0 -14px 0 4px;
+      width: 39px;
+      height: 37px;
+      cursor: pointer;
+    }
+  }
+}
